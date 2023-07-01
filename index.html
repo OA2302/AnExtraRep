@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Health Report Form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="heart">&#x2665;</div>
+        <h1>Nanavati Hospital</h1>
+        <div class="heart">&#x2665;</div>
+    </header>
+<main>
+    <h1>Health Report Form</h1>
+    <form action="insert.php" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name" class="form-control">
+    </div>
+    <div class="form-group">
+    <label for="age">Age</label>
+    <input type="number" name="age" id="age" class="form-control" >
+    </div>
+    <div class="form-group">
+    <label for="weight">Weight per Kgs</label>
+    <input type="number" name="weight" id="weight" class="form-control">
+    </div>
+    <div class="form-group">
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email" class="form-control">
+    </div>
+    <div class="form-group">
+    <label for="health-report">Health Report</label>
+    <input type="file" name="health-report" id="health-report">
+    </div>
+    <div class="form-group">
+        <input type="submit" class="btn-primary" value="submit">
+    </div>
+    </form>
+</main>
+</body>
+<script src="script.js"></script>
+</html>
