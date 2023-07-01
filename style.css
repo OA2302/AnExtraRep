@@ -56,3 +56,17 @@ body {
     color: #ccc;
     border: none;
 }
+
+@media screen and (max-width: 900px) {
+   body { display: flex;
+    flex-direction: column;
+    height: 200px;
+    max-height:120px;
+    width: 400px;
+    overflow: hidden;
+      }
+         .form-group {
+        text-align: center;
+    }
+    
+}
